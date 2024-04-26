@@ -6,7 +6,7 @@ import { MyText } from '../components/ui/MyText';
 import { HeroFooter } from '../components/sections/Home/HeroFooter';
 import { ProjectCard } from '../components/sections/Home/ProjectCard';
 import { TestimonyCard } from '../components/sections/Home/TestimonyCard';
-import { MyContainer } from '../components/ui/Mycontainer';
+import { MyContainer } from '../components/ui/MyContainer';
 
 interface Props {}
 

@@ -11,7 +11,7 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
-import { MyContainer } from '../components/ui/Mycontainer';
+import { MyContainer } from '../components/ui/MyContainer';
 import { MyText } from '../components/ui/MyText';
 import { FaDribbble, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { RiDrizzleFill } from 'react-icons/ri';
