@@ -34,7 +34,7 @@ export const Services = ({}: Props) => {
         <Box w="100px" h={'20px'} bg={bg} />
         <Heading
           textColor={textColor}
-          mb={3}
+          mb={5}
           size={{ base: 'md', md: 'lg', lg: 'xl' }}
         >
           SERVICES WE PROVIDE

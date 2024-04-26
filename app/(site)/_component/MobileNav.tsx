@@ -10,6 +10,7 @@ import {
   Flex,
   useColorModeValue,
   Button,
+  Text,
 } from '@chakra-ui/react';
 import { LinkItem } from './LinkItem';
 import { links } from './Navbar';
@@ -44,7 +45,9 @@ export function SideBar({ isOpen, onClose }: Props) {
 
         <DrawerFooter display={'flex'} justifyContent={'center'}>
           <Button bg={buttonBg} size={'md'} borderRadius={'5px'}>
-            <MyText text="Launch Your Project Now" fontSize={'13px'} />
+            <Text fontSize={'13px'} textColor={'white'}>
+              Launch Your Project Now{' '}
+            </Text>
           </Button>
         </DrawerFooter>
       </DrawerContent>

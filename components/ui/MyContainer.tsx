@@ -11,7 +11,7 @@ export const MyContainer = ({ children, id }: Props) => {
     <Box
       id={id}
       minH={'100vh'}
-      mt={{ base: '40px', md: '50px' }}
+      mt={{ base: '70px', md: '50px' }}
       w={{ base: '90%', md: '80%' }}
       mx={'auto'}
       pt={{ base: '40px', md: '100px' }}
