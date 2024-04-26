@@ -1,16 +1,11 @@
 import { ReactNode } from 'react';
 import AppWrappers from './AppWrappers';
-import { Inter, Abel, Italiana } from 'next/font/google';
+import { fonts } from './font';
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-});
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <body id={'root'} className={inter.variable}>
+    <html lang="en" className={fonts.inter.variable}>
+      <body id={'root'}>
         <AppWrappers>{children}</AppWrappers>
       </body>
     </html>
