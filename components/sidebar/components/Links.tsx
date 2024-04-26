@@ -3,7 +3,7 @@
 // chakra imports
 import { Box, Flex, HStack, Text, useColorModeValue } from '@chakra-ui/react';
 import Link from 'next/link';
-import { IRoute } from 'types/navigation';
+import { IRoute } from '../../../types/navigation';
 import { usePathname } from 'next/navigation';
 import { useCallback } from 'react';
 
