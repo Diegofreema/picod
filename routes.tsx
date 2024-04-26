@@ -16,7 +16,7 @@ import {
 
 // Auth Imports
 // import SignInCentered from './pages/auth/sign-in';
-import { IRoute } from 'types/navigation';
+import { IRoute } from './types/navigation';
 
 const routes: IRoute[] = [
   {
