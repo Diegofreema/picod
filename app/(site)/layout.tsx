@@ -11,7 +11,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
 
   return (
     <Box bg={bg} w="100%">
-      <Box minH="100vh" pt={{ base: '50px', md: '120px' }} pos="relative">
+      <Box minH="100vh" pos="relative">
         <SiteNavBar />
         {children}
       </Box>

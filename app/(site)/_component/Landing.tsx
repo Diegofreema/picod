@@ -10,6 +10,7 @@ import {
 import { MyText } from '../../../components/ui/MyText';
 import { Hero } from '../../../sections/Hero';
 import { Services } from '../../../sections/Services';
+import { Team } from '../../../sections/Team';
 
 interface Props {}
 
@@ -19,6 +20,7 @@ export const Landing = ({}: Props) => {
       <Hero />
       <ChoseUs />
       <Services />
+      <Team />
     </Box>
   );
 };

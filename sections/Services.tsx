@@ -20,6 +20,7 @@ interface Props {}
 
 export const Services = ({}: Props) => {
   const textColor = useColorModeValue('navy.700', 'white');
+  const bg = useColorModeValue('#073E57', 'white');
   return (
     <SimpleGrid
       id={'services'}
@@ -27,9 +28,15 @@ export const Services = ({}: Props) => {
       gap={{ base: '20px', md: '20px' }}
       w={{ base: '90%', md: '80%' }}
       mx={'auto'}
+      pt={{ base: '40px', md: '100px' }}
     >
       <Box>
-        <Heading textColor={textColor} mb={3}>
+        <Box w="100px" h={'20px'} bg={bg} />
+        <Heading
+          textColor={textColor}
+          mb={3}
+          size={{ base: 'md', md: 'lg', lg: 'xl' }}
+        >
           SERVICES WE PROVIDE
         </Heading>
         <MyText
@@ -123,14 +130,7 @@ const Item = ({
       </CardBody>
 
       <CardFooter display={'flex'} justify={'end'}>
-        <Button
-          variant={'ghost'}
-          color="#FF9900"
-          _hover={{
-            transform: 'translateX(3px)',
-            transition: 'all 0.3s ease',
-          }}
-        >
+        <Button variant={'ghost'} color="#FF9900">
           <Link href={link}>learn more</Link>
         </Button>
       </CardFooter>

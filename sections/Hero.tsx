@@ -6,6 +6,7 @@ import { MyText } from '../components/ui/MyText';
 import { HeroFooter } from '../components/sections/Home/HeroFooter';
 import { ProjectCard } from '../components/sections/Home/ProjectCard';
 import { TestimonyCard } from '../components/sections/Home/TestimonyCard';
+import { MyContainer } from '../components/ui/Mycontainer';
 
 interface Props {}
 
@@ -13,13 +14,7 @@ export const Hero = ({}: Props) => {
   const textColor = useColorModeValue('#52525B', 'gray');
   const headingColor = useColorModeValue('#000', 'white');
   return (
-    <Box
-      minH={'100vh'}
-      id="home"
-      mt={{ base: '40px', md: '50px' }}
-      w={{ base: '90%', md: '80%' }}
-      mx={'auto'}
-    >
+    <MyContainer id="home">
       <Flex
         justifyContent={'center'}
         w={{ base: '90%', md: '80%' }}
@@ -49,7 +44,9 @@ export const Hero = ({}: Props) => {
 
         <Flex justifyContent={'center'} zIndex={0}>
           <MyButton my={6} w="fit-content">
-            <MyText text="Get started" fontSize={'12px'} />
+            <Text fontSize={'13px'} textColor={'white'}>
+              Get started
+            </Text>
           </MyButton>
         </Flex>
         <Box position={'absolute'} zIndex={2} left={9} hideBelow={'md'}>
@@ -70,6 +67,6 @@ export const Hero = ({}: Props) => {
           <HeroFooter />
         </Box>
       </Flex>
-    </Box>
+    </MyContainer>
   );
 };
