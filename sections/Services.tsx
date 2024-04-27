@@ -31,7 +31,12 @@ export const Services = ({}: Props) => {
       pt={{ base: '40px', md: '100px' }}
     >
       <Box>
-        <Box w="100px" h={'20px'} bg={bg} />
+        <Box
+          width={{ base: '70px', md: '100px' }}
+          height={{ base: '10px', md: '20px' }}
+          bg={bg}
+          mb={{ base: 2, md: 3 }}
+        />
         <Heading
           textColor={textColor}
           mb={5}
