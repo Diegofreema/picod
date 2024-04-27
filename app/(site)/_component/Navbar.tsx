@@ -145,7 +145,7 @@ export default function SiteNavBar(props: {}) {
           </Flex>
           <IconButton
             aria-label="button"
-            icon={<HamburgerIcon />}
+            icon={<HamburgerIcon color="white" />}
             hideFrom={'md'}
             bg={buttonBg}
             borderRadius={5}
