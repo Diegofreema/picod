@@ -45,7 +45,7 @@ export default function Footer() {
             target="_blank"
             fontWeight="700"
           >
-            GNCDO!
+            GENCO Tech Services!
           </Link>
         </Text>
       </Text>
