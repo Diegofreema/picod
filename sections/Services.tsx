@@ -115,7 +115,7 @@ const Item = ({
   return (
     <Card
       _hover={{
-        transform: 'translateY(-5px)',
+        transform: 'translateY(-10px)',
         transition: 'all 0.3s ease',
       }}
       display={'grid'}

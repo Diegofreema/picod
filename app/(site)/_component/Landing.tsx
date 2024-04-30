@@ -11,6 +11,8 @@ import { MyText } from '../../../components/ui/MyText';
 import { Hero } from '../../../sections/Hero';
 import { Services } from '../../../sections/Services';
 import { Team } from '../../../sections/Team';
+import { Collaborate } from '../../../components/sections/Home/Collaborate';
+import { Frequently } from '../../../components/sections/Home/Frequently';
 
 interface Props {}
 
@@ -21,6 +23,8 @@ export const Landing = ({}: Props) => {
       <ChoseUs />
       <Services />
       <Team />
+      <Collaborate />
+      <Frequently />
     </Box>
   );
 };
