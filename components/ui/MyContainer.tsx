@@ -10,7 +10,7 @@ export const MyContainer = ({ children, id }: Props) => {
   return (
     <Box
       id={id}
-      minH={'100vh'}
+      minH={'100dvh'}
       w={{ base: '90%', md: '80%' }}
       mx={'auto'}
       pt={{ base: '100px', md: '150px' }}

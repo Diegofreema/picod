@@ -121,9 +121,12 @@ const Item = ({
       display={'grid'}
       gap={3}
       boxShadow={'xl'}
+      shadow={'xl'}
       bg={bg}
       borderRadius={6}
       mt={{ base: 0, md: `${accurateIndex}px` }}
+      borderColor={'white'}
+      borderWidth={1}
     >
       <CardHeader>
         <Heading textColor={textColor} fontSize={'20px'}>

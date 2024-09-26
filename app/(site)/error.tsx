@@ -20,7 +20,7 @@ export default function Error({
 
   return (
     <Box
-      minH={'100vh'}
+      minH={'100dvh'}
       display={'flex'}
       alignItems={'center'}
       justifyContent={'center'}

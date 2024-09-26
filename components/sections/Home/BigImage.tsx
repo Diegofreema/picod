@@ -18,8 +18,8 @@ export const BigImage = ({}: Props) => {
         alt="big-image"
         src={'/img/big-image.png'}
         maxW={'100%'}
-        w={{ base: '100%', md: '600px' }}
-        h={{ base: '200px', md: '500px' }}
+        w={{ base: '100%', md: '600px', lg: '900px' }}
+        h={{ base: '200px', md: '500px', lg: 'auto' }}
       />
       <Image
         hideBelow={'md'}

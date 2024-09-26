@@ -39,7 +39,7 @@ export default function AdminLayout(props: DashboardLayoutProps) {
   const bg = useColorModeValue('secondaryGray.300', 'navy.900');
 
   return (
-    <Box h="100vh" w="100vw" bg={bg}>
+    <Box h="100dvh" w="100vw" bg={bg}>
       <SidebarContext.Provider
         value={{
           toggleSidebar,
@@ -49,7 +49,7 @@ export default function AdminLayout(props: DashboardLayoutProps) {
         <Sidebar routes={routes} display="none" {...rest} />
         <Box
           float="right"
-          minHeight="100vh"
+          minHeight="100dvh"
           height="100%"
           overflow="auto"
           position="relative"
@@ -79,7 +79,7 @@ export default function AdminLayout(props: DashboardLayoutProps) {
             mx="auto"
             p={{ base: '20px', md: '30px' }}
             pe="20px"
-            minH="100vh"
+            minH="100dvh"
             pt="50px"
           >
             {children}

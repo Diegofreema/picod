@@ -28,7 +28,7 @@ export default function AuthLayout({ children }: AuthProps) {
         <Box
           bg={authBg}
           float="right"
-          minHeight="100vh"
+          minHeight="100dvh"
           height="100%"
           position="relative"
           w="100%"
@@ -37,7 +37,7 @@ export default function AuthLayout({ children }: AuthProps) {
           transitionProperty="top, bottom, width"
           transitionTimingFunction="linear, linear, ease"
         >
-          <Box mx="auto" minH="100vh">
+          <Box mx="auto" minH="100dvh">
             {children}
           </Box>
         </Box>

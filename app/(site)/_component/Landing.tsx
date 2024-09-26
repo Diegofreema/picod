@@ -18,7 +18,7 @@ interface Props {}
 
 export const Landing = ({}: Props) => {
   return (
-    <Box minH="100vh" mb={10}>
+    <Box minH="100dvh" mb={10}>
       <Hero />
       <ChoseUs />
       <Services />
@@ -67,7 +67,7 @@ const ChoseUs = () => {
           </Text>
         </Box>
         <Box flex={{ base: 1, md: 0.3 }}>
-          <Text textColor={textColor} fontSize={'12px'}>
+          <Text textColor={textColor} fontSize={{ base: '12px', md: '18px' }}>
             Choosing the right digital marketing partner is crucial for the
             success of your brand. At [Your Company Name], we&apos;re more than
             just a service provider; we&apos;re your dedicated ally in

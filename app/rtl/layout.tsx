@@ -42,7 +42,7 @@ export default function RTLLayout(props: RTLLayoutProps) {
           <Sidebar routes={routes} display="none" {...rest} />
           <Box
             float="left"
-            minHeight="100vh"
+            minHeight="100dvh"
             height="100%"
             overflow="auto"
             position="relative"
@@ -72,7 +72,7 @@ export default function RTLLayout(props: RTLLayoutProps) {
               mx="auto"
               p={{ base: '20px', md: '30px' }}
               pe="20px"
-              minH="100vh"
+              minH="100dvh"
               pt="50px"
             >
               {children}

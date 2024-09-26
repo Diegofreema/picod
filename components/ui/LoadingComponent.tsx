@@ -12,7 +12,7 @@ export const LoadingComponent = ({}: Props): JSX.Element => {
   return (
     <Box
       bg={bg}
-      minH={'100vh'}
+      minH={'100dvh'}
       w={'100vw'}
       display={'flex'}
       justifyContent={'center'}
