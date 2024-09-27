@@ -28,15 +28,20 @@ export const Team = ({}: Props) => {
         mb={3}
         textColor={textColor}
       >
-        ABOUT OUR TEAM
+        ABOUT US
       </Heading>
       <Box display={'grid'} gap={3} mb={10}>
         <MyText
-          text="At T PICOD we believe that every brand is a unique story waiting to be told. With our finger on the pulse of contemporary trends and a passion for innovation, we’re your go-to partners for creating unforgettable moments in today's dynamic world."
+          text="We are a Marketing Agency that is helping businesses thrive by providing
+        Strategic Marketing solutions for today's businesses. We expertise in
+        Digital and Traditional Marketing strategies aimed at increasing sales
+        and customer loyalty."
           fontSize={'13px'}
         />
         <MyText
-          text="Established with the strength of being women-led, our culture thrives on diversity, community engagement, passion for creativity, and a commitment to excellence."
+          text="We are a woman-owned business, located in Washington DC suburbs. The
+          organization works with clients all over the world and offers diverse
+          trending marketing solutions."
           fontSize={'13px'}
         />
         <MyText
@@ -105,6 +110,7 @@ const TeammatesCards = () => {
     <Grid
       templateColumns={{ base: '1fr', md: '1fr 1fr', lg: '1fr 1fr 1fr 1fr' }}
       gap={4}
+      mb={{ base: 5, md: 10 }}
     >
       {teammates.map((item, i) => (
         <TeamCard key={i} {...item} />

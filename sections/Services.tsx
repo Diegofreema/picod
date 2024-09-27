@@ -24,13 +24,13 @@ export const Services = ({}: Props) => {
   return (
     <SimpleGrid
       id={'services'}
-      columns={{ base: 1, md: 2, lg: 4 }}
+      columns={{ base: 1, md: 1, lg: 4 }}
       gap={{ base: '20px', md: '20px' }}
       w={{ base: '90%', md: '80%' }}
       mx={'auto'}
       pt={{ base: '40px', md: '100px' }}
     >
-      <Box>
+      <Box mb={{ md: 10 }}>
         <Box
           width={{ base: '70px', md: '100px' }}
           height={{ base: '10px', md: '20px' }}
